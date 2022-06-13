@@ -1,0 +1,15 @@
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\bin\Debug\net6.0\Chess_3.exe
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\bin\Debug\net6.0\Chess_3.deps.json
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\bin\Debug\net6.0\Chess_3.runtimeconfig.json
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\bin\Debug\net6.0\Chess_3.dll
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\bin\Debug\net6.0\Chess_3.pdb
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\Chess_3.csproj.AssemblyReference.cache
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\Chess_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\Chess_3.AssemblyInfoInputs.cache
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\Chess_3.AssemblyInfo.cs
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\Chess_3.csproj.CoreCompileInputs.cache
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\Chess_3.dll
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\refint\Chess_3.dll
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\Chess_3.pdb
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\Chess_3.genruntimeconfig.cache
+C:\Users\Xakep\source\repos\Chess_3\Chess_3\obj\Debug\net6.0\ref\Chess_3.dll
