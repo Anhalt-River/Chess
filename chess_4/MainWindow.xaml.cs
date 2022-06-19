@@ -23,8 +23,37 @@ namespace chess_4
         public MainWindow()
         {
             InitializeComponent();
+            CreateBoard();
+        }
 
+        public void CreateBoard()
+        {
+            chessBoard.Rows = 8;
+            chessBoard.Columns = 8;
 
+            for (int i = 0; i < 32; i++)
+            {
+                if ((i / 4) % 2 == 0)
+                {
+                    Rectangle r1 = new Rectangle();
+                    r1.Fill = Brushes.Black;
+                    chessBoard.Children.Add(r1);
+
+                    Rectangle r2 = new Rectangle();
+                    r2.Fill = Brushes.LightCoral;
+                    chessBoard.Children.Add(r2);
+                }
+                else
+                {
+                    Rectangle r2 = new Rectangle();
+                    r2.Fill = Brushes.LightCoral;
+                    chessBoard.Children.Add(r2);
+
+                    Rectangle r1 = new Rectangle();
+                    r1.Fill = Brushes.Black;
+                    chessBoard.Children.Add(r1);
+                }
+            }
         }
     }
 }

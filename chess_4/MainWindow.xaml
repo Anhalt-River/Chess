@@ -5,81 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:chess_4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="500">
-    <Grid ShowGridLines="True" Margin="0,10,0,0">
+        Title="MainWindow" Height="600" Width="500">
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="*"> </RowDefinition>
+            <RowDefinition Height="100">
+                
+            </RowDefinition>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Button x:Name="buttonlogo" Grid.Column="0" Grid.Row="0" Content="Установить фигуру" Grid.ColumnSpan="2"  />
-        <Button x:Name="buttonKing" Grid.Column="3" Grid.Row="0" Content="King"/>
-        <Button x:Name="buttonQueen" Grid.Column="4" Grid.Row="0" Content="Queen"/>
-        <Button x:Name="buttonKnight" Grid.Column="5" Grid.Row="0" Content="Knight"/>
-        <Button x:Name="buttonBishop" Grid.Column="6" Grid.Row="0" Content="Bishop"/>
-        <Button x:Name="buttonRook" Grid.Column="7" Grid.Row="0" Content="Rook" Grid.ColumnSpan="1"  />
 
-        <Button x:Name="buttonWhite" Grid.Column="0" Grid.Row="1" Background="Linen"></Button>
-        <Button x:Name="buttonBlack" Grid.Column="0" Grid.Row="2" Background="Black"></Button>
-        <Button Grid.Column="0" Grid.Row="3" Background="Linen"></Button> <Button Grid.Column="0" Grid.Row="4" Background="Black"></Button>
-        <Button Grid.Column="0" Grid.Row="5" Background="Linen"></Button> <Button Grid.Column="0" Grid.Row="6" Background="Black"></Button>
-        <Button Grid.Column="0" Grid.Row="7" Background="Linen"></Button> <Button Grid.Column="0" Grid.Row="8" Background="Black"></Button>
-
-        <Button Grid.Column="1" Grid.Row="1" Background="Black"></Button> <Button Grid.Column="1" Grid.Row="2" Background="Linen"></Button>
-        <Button Grid.Column="1" Grid.Row="3" Background="Black"></Button> <Button Grid.Column="1" Grid.Row="4" Background="Linen"></Button>
-        <Button Grid.Column="1" Grid.Row="5" Background="Black"></Button> <Button Grid.Column="1" Grid.Row="6" Background="Linen"></Button>
-        <Button Grid.Column="1" Grid.Row="7" Background="Black"></Button> <Button Grid.Column="1" Grid.Row="8" Background="Linen"></Button>
-
-        <Button Grid.Column="2" Grid.Row="1" Background="Linen"></Button> <Button Grid.Column="2" Grid.Row="2" Background="Black"></Button>
-        <Button Grid.Column="2" Grid.Row="3" Background="Linen"></Button> <Button Grid.Column="2" Grid.Row="4" Background="Black"></Button>
-        <Button Grid.Column="2" Grid.Row="5" Background="Linen"></Button> <Button Grid.Column="2" Grid.Row="6" Background="Black"></Button>
-        <Button Grid.Column="2" Grid.Row="7" Background="Linen"></Button> <Button Grid.Column="2" Grid.Row="8" Background="Black"></Button>
-
-        <Button Grid.Column="3" Grid.Row="1" Background="Black"></Button> <Button Grid.Column="3" Grid.Row="2" Background="Linen"></Button>
-        <Button Grid.Column="3" Grid.Row="3" Background="Black"></Button> <Button Grid.Column="3" Grid.Row="4" Background="Linen"></Button>
-        <Button Grid.Column="3" Grid.Row="5" Background="Black"></Button> <Button Grid.Column="3" Grid.Row="6" Background="Linen"></Button>
-        <Button Grid.Column="3" Grid.Row="7" Background="Black"></Button> <Button Grid.Column="3" Grid.Row="8" Background="Linen"></Button>
-
-        <Button Grid.Column="4" Grid.Row="1" Background="Linen"></Button> <Button Grid.Column="4" Grid.Row="2" Background="Black"></Button>
-        <Button Grid.Column="4" Grid.Row="3" Background="Linen"></Button> <Button Grid.Column="4" Grid.Row="4" Background="Black"></Button>
-        <Button Grid.Column="4" Grid.Row="5" Background="Linen"></Button> <Button Grid.Column="4" Grid.Row="6" Background="Black"></Button>
-        <Button Grid.Column="4" Grid.Row="7" Background="Linen"></Button> <Button Grid.Column="4" Grid.Row="8" Background="Black"></Button>
-
-        <Button Grid.Column="5" Grid.Row="1" Background="Black"></Button> <Button Grid.Column="5" Grid.Row="2" Background="Linen"></Button>
-        <Button Grid.Column="5" Grid.Row="3" Background="Black"></Button> <Button Grid.Column="5" Grid.Row="4" Background="Linen"></Button>
-        <Button Grid.Column="5" Grid.Row="5" Background="Black"></Button> <Button Grid.Column="5" Grid.Row="6" Background="Linen"></Button>
-        <Button Grid.Column="5" Grid.Row="7" Background="Black"></Button> <Button Grid.Column="5" Grid.Row="8" Background="Linen"></Button>
-
-        <Button Grid.Column="6" Grid.Row="1" Background="Linen"></Button> <Button Grid.Column="6" Grid.Row="2" Background="Black"></Button>
-        <Button Grid.Column="6" Grid.Row="3" Background="Linen"></Button> <Button Grid.Column="6" Grid.Row="4" Background="Black"></Button>
-        <Button Grid.Column="6" Grid.Row="5" Background="Linen"></Button> <Button Grid.Column="6" Grid.Row="6" Background="Black"></Button>
-        <Button Grid.Column="6" Grid.Row="7" Background="Linen"></Button> <Button Grid.Column="6" Grid.Row="8" Background="Black"></Button>
-
-        <Button Grid.Column="7" Grid.Row="1" Background="Black"></Button> <Button Grid.Column="7" Grid.Row="2" Background="Linen"></Button>
-        <Button Grid.Column="7" Grid.Row="3" Background="Black"></Button> <Button Grid.Column="7" Grid.Row="4" Background="Linen"></Button>
-        <Button Grid.Column="7" Grid.Row="5" Background="Black"></Button> <Button Grid.Column="7" Grid.Row="6" Background="Linen"></Button>
-        <Button Grid.Column="7" Grid.Row="7" Background="Black"></Button> <Button Grid.Column="7" Grid.Row="8" Background="Linen"></Button>
-
-        <Button Grid.Column="8" Grid.Row="1" Background="Linen"></Button> <Button Grid.Column="8" Grid.Row="2" Background="Black"></Button>
-        <Button Grid.Column="8" Grid.Row="3" Background="Linen"></Button> <Button Grid.Column="8" Grid.Row="4" Background="Black"></Button>
-        <Button Grid.Column="8" Grid.Row="5" Background="Linen"></Button> <Button Grid.Column="8" Grid.Row="6" Background="Black"></Button>
-        <Button Grid.Column="8" Grid.Row="7" Background="Linen"></Button> <Button Grid.Column="8" Grid.Row="8" Background="Black"></Button>
+        <UniformGrid x:Name="chessBoard"> </UniformGrid>
+        <ListBox x:Name="decisionFigure" Grid.Row="1">
+            <TextBlock FontWeight="Bold" Text="Выбор фигуры" />
+            <ListBoxItem Background="LightGray"> King </ListBoxItem>
+            <ListBoxItem> Queen </ListBoxItem>
+            <ListBoxItem Background="LightGray"> Knight </ListBoxItem>
+            <ListBoxItem> Rook </ListBoxItem>
+            <ListBoxItem Background="LightGray">Bishop</ListBoxItem>
+        </ListBox>
     </Grid>
 </Window>
