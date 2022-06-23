@@ -6,7 +6,7 @@ namespace chess_4
     {
         static public Figure FabricateFigure(string takedfigure, int x, int y)
         {
-            Figure newfigure = null;
+            Figure newfigure;
             switch (takedfigure)
             {
                 case "Bishop":
@@ -28,8 +28,7 @@ namespace chess_4
                     newfigure = new Pawn(x, y);
                     break;
                 default:
-                    throw new Exception("Unknown piece code.");
-                    break;
+                    throw new Exception("Была получена неизвестная фигура");
             }
             return newfigure;
         }

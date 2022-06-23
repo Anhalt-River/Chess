@@ -23,14 +23,12 @@ namespace chess_4
         private Figure ourFigure;
         private string takedfigure = "";
         private List<string> figuresNames;
-        private bool figureChanged;
 
         public MainWindow()
         {
             InitializeComponent();
             figuresNames = new List<string> {"King", "Queen", "Bishop", "Rook", "Knight", "Pawn"};
             decisionFigure.ItemsSource = figuresNames;
-            figureChanged = false;
         }
 
 
@@ -40,7 +38,7 @@ namespace chess_4
             int x = Grid.GetColumn(clickedButton);
             int y = Grid.GetRow(clickedButton);
 
-            // set
+            // Постановка и ходьба фигуры
             if (clickedButton.Content.ToString() == "")
             {
                 if (ourFigure == null)
@@ -52,13 +50,14 @@ namespace chess_4
                 else if (ourFigure.Answer(x, y))
                 {
                     clickedButton.Content = takedfigure;
-                    (ourFigure.TakedButton as Button).Content = "";
+                    Button tempBut = (Button)ourFigure.TakedButton;
+                    tempBut.Content = "";
                     ourFigure.TakedButton = clickedButton;
                 }
                 return;
             }
 
-            // clear
+            // Очищение клетки повторным нажатием
             if (clickedButton.Content.ToString() != "")
             {
                 clickedButton.Content = "";
