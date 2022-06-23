@@ -6,13 +6,13 @@ namespace chess_4
     {
         class Knight : Figure
         {
-            public Knight(Point a, Point b) : base(a, b)
+            public Knight(int newX, int newY) : base(newX, newY)
             { }
 
-            public override bool Answer()
+            public override bool Answer(int newX, int newY)
             {
-                return ((Math.Abs(A.X - B.X) == 2 && Math.Abs(A.Y - B.Y) == 1) ||
-                        (Math.Abs(A.X - B.X) == 1 && Math.Abs(A.Y - B.Y) == 2));
+                return ((Math.Abs(x - newX) == 2 && Math.Abs(y - newY) == 1) ||
+                        (Math.Abs(x - newX) == 1 && Math.Abs(y - newY) == 2));
             }
         }
     }

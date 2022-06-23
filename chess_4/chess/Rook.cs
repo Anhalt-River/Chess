@@ -4,12 +4,12 @@
     {
         class Rook : Figure
         {
-            public Rook(Point a, Point b) : base(a, b)
+            public Rook(int newX, int newY) : base(newX, newY)
             { }
 
-            public override bool Answer()
+            public override bool Answer(int newX, int newY)
             {
-                return (A.X == B.X || A.Y == B.Y);
+                return (x == newX || y == newY);
             }
         }
     }

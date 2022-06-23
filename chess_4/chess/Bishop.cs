@@ -6,12 +6,12 @@ namespace chess_4
     {
         class Bishop : Figure
         {
-            public Bishop(Point a, Point b) : base(a, b)
+            public Bishop(int newX, int newY) : base(newX, newY)
             { }
 
-            public override bool Answer()
+            public override bool Answer(int newX, int newY)
             {
-                return (Math.Abs(A.X - B.X) == Math.Abs(A.Y - B.Y));
+                return (Math.Abs(x - newX) == Math.Abs(y - newY));
             }
         }
     }

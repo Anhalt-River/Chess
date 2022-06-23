@@ -20,11 +20,14 @@ namespace chess_4
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
             CreateBoard();
+            
         }
+        private string takedfigure = "";
 
         public void CreateBoard()
         {
@@ -35,25 +38,30 @@ namespace chess_4
             {
                 if ((i / 4) % 2 == 0)
                 {
-                    Rectangle r1 = new Rectangle();
-                    r1.Fill = Brushes.Black;
-                    chessBoard.Children.Add(r1);
+                    Button b1 = new Button();
+                    b1.Background = Brushes.Black;
+                    chessBoard.Children.Add(b1);
 
-                    Rectangle r2 = new Rectangle();
-                    r2.Fill = Brushes.LightCoral;
-                    chessBoard.Children.Add(r2);
+                    Button b2 = new Button();
+                    b2.Background = Brushes.LightCoral;
+                    chessBoard.Children.Add(b2);
                 }
                 else
                 {
-                    Rectangle r2 = new Rectangle();
-                    r2.Fill = Brushes.LightCoral;
-                    chessBoard.Children.Add(r2);
+                    Button b2 = new Button();
+                    b2.Background = Brushes.LightCoral;
+                    chessBoard.Children.Add(b2);
 
-                    Rectangle r1 = new Rectangle();
-                    r1.Fill = Brushes.Black;
-                    chessBoard.Children.Add(r1);
+                    Button b1 = new Button();
+                    b1.Background = Brushes.Black;
+                    chessBoard.Children.Add(b1);
                 }
             }
+        }
+
+        private void decisionFigure_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            takedfigure = (string)decisionFigure.SelectedValue;
         }
     }
 }

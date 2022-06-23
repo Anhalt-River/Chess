@@ -8,20 +8,21 @@
         Title="MainWindow" Height="600" Width="500">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"> </RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="100">
-                
+
             </RowDefinition>
         </Grid.RowDefinitions>
 
-        <UniformGrid x:Name="chessBoard"> </UniformGrid>
-        <ListBox x:Name="decisionFigure" Grid.Row="1">
+        <UniformGrid x:Name="chessBoard"></UniformGrid>
+        <ListBox x:Name="decisionFigure" Margin="0,484,150,0" Grid.RowSpan="2" SelectionChanged="decisionFigure_SelectionChanged">
             <TextBlock FontWeight="Bold" Text="Выбор фигуры" />
-            <ListBoxItem Background="LightGray"> King </ListBoxItem>
-            <ListBoxItem> Queen </ListBoxItem>
-            <ListBoxItem Background="LightGray"> Knight </ListBoxItem>
-            <ListBoxItem> Rook </ListBoxItem>
-            <ListBoxItem Background="LightGray">Bishop</ListBoxItem>
+            <ListBoxItem x:Name="King" Background="LightGray">King</ListBoxItem>
+            <ListBoxItem x:Name="Queen" >Queen</ListBoxItem>
+            <ListBoxItem x:Name="Knight" Background="LightGray">Knight</ListBoxItem>
+            <ListBoxItem x:Name="Rook">Rook</ListBoxItem>
+            <ListBoxItem x:Name="Bishop" Background="LightGray">Bishop</ListBoxItem>
         </ListBox>
+        <Button x:Name="clearFigure" Content="Режим очистки" HorizontalAlignment="Left" Margin="364,2,0,0" Grid.Row="1" VerticalAlignment="Top" Width="126" Background="Red"/>
     </Grid>
 </Window>
