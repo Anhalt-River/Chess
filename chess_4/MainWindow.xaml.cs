@@ -20,49 +20,54 @@ namespace chess_4
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Figure ourFigure;
+        private string takedfigure = "";
+        private List<string> figuresNames;
 
         public MainWindow()
         {
             InitializeComponent();
-            CreateBoard();
-            
+            figuresNames = new List<string> {"King", "Queen", "Bishop", "Rook", "Knight", "Pawn"};
+            decisionFigure.ItemsSource = figuresNames;
         }
-        private string takedfigure = "";
 
-        public void CreateBoard()
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            chessBoard.Rows = 8;
-            chessBoard.Columns = 8;
+            Button clickedButton = (Button)sender;
+            int x = Grid.GetColumn(clickedButton);
+            int y = Grid.GetRow(clickedButton);
 
-            for (int i = 0; i < 32; i++)
+            // set
+            if (clickedButton.Content.ToString() == "")
             {
-                if ((i / 4) % 2 == 0)
+                if (ourFigure == null)
                 {
-                    Button b1 = new Button();
-                    b1.Background = Brushes.Black;
-                    chessBoard.Children.Add(b1);
-
-                    Button b2 = new Button();
-                    b2.Background = Brushes.LightCoral;
-                    chessBoard.Children.Add(b2);
+                    ourFigure = FigureFabric.FabricateFigure(takedfigure, x, y);
+                    ourFigure.TakedButton = clickedButton;
+                    clickedButton.Content = takedfigure;
                 }
-                else
+                else if (ourFigure.Move(x, y))
                 {
-                    Button b2 = new Button();
-                    b2.Background = Brushes.LightCoral;
-                    chessBoard.Children.Add(b2);
-
-                    Button b1 = new Button();
-                    b1.Background = Brushes.Black;
-                    chessBoard.Children.Add(b1);
+                    clickedButton.Content = takedfigure;
+                    (ourFigure.TakedButton as Button).Content = "";
+                    ourFigure.TakedButton = clickedButton;
                 }
+                return;
             }
 
+            // clear
+            if (clickedButton.Content.ToString() != "")
+            {
+                clickedButton.Content = "";
+                ourFigure = null;
+                return;
+            }
         }
 
         private void decisionFigure_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            takedfigure = (string)decisionFigure.SelectedValue;
+            takedfigure = figuresNames[decisionFigure.SelectedIndex];
         }
     }
 }
