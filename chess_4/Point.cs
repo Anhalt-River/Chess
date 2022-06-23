@@ -1,6 +1,6 @@
 ﻿namespace chess_4
 {
-    public partial class MainWindow
+    public partial class Pawn
     {
         struct Point
         {

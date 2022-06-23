@@ -6,13 +6,13 @@ namespace chess_4
     {
         class Queen : Figure
         {
-            public Queen(Point a, Point b) : base(a, b)
+            public Queen(int newX, int newY) : base(newX, newY)
             { }
 
-            public override bool Answer()
+            public override bool Answer(int newX, int newY)
             {
-                return (A.X == B.X || A.Y == B.Y ||
-                         Math.Abs(A.X - B.X) == Math.Abs(A.Y - B.Y));
+                return (x == newX || y == newY ||
+                         Math.Abs(x - newX) == Math.Abs(y - newY));
             }
         }
     }

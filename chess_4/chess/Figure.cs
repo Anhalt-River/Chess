@@ -1,19 +1,21 @@
-﻿namespace chess_4
+﻿using System;
+
+namespace chess_4
 {
     public partial class MainWindow
     {
         class Figure
         {
-            public Point A;
-            public Point B;
+            protected int x;
+            protected int y;
 
-            public Figure(Point a, Point b)
+            public Figure(int newX, int newY)
             {
-                A = a;
-                B = b;
+                x = newX;
+                y = newY;
             }
 
-            public virtual bool Answer()
+            public virtual bool Answer(int newX, int newY)
             {
                 bool move = false;
                 return move;
