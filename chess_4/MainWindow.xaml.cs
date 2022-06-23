@@ -23,12 +23,14 @@ namespace chess_4
         private Figure ourFigure;
         private string takedfigure = "";
         private List<string> figuresNames;
+        private bool figureChanged;
 
         public MainWindow()
         {
             InitializeComponent();
             figuresNames = new List<string> {"King", "Queen", "Bishop", "Rook", "Knight", "Pawn"};
             decisionFigure.ItemsSource = figuresNames;
+            figureChanged = false;
         }
 
 
@@ -68,6 +70,7 @@ namespace chess_4
         private void decisionFigure_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             takedfigure = figuresNames[decisionFigure.SelectedIndex];
+            ourFigure = null;
         }
     }
 }
