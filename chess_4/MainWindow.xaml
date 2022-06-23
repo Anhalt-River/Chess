@@ -31,77 +31,77 @@
             </RowDefinition>
         </Grid.RowDefinitions>
 
-        <Button Grid.Row="0" Grid.Column="0" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="1" Grid.Column="0" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="2" Grid.Column="0" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="3" Grid.Column="0" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="4" Grid.Column="0" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="5" Grid.Column="0" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="6" Grid.Column="0" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="7" Grid.Column="0" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="0" Grid.Column="0" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="0" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="0" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="0" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="0" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="0" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="6" Grid.Column="0" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="7" Grid.Column="0" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
 
-        <Button Grid.Row="0" Grid.Column="1" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="1" Grid.Column="1" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="2" Grid.Column="1" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="3" Grid.Column="1" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="4" Grid.Column="1" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="5" Grid.Column="1" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="6" Grid.Column="1" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="7" Grid.Column="1" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="0" Grid.Column="1" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="1" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="1" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="1" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="1" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="6" Grid.Column="1" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="7" Grid.Column="1" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
 
-        <Button Grid.Row="0" Grid.Column="2" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="1" Grid.Column="2" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="2" Grid.Column="2" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="3" Grid.Column="2" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="4" Grid.Column="2" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="5" Grid.Column="2" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="6" Grid.Column="2" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="7" Grid.Column="2" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="0" Grid.Column="2" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="2" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="2" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="2" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="2" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="6" Grid.Column="2" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="7" Grid.Column="2" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
 
-        <Button Grid.Row="0" Grid.Column="3" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="1" Grid.Column="3" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="2" Grid.Column="3" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="3" Grid.Column="3" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="4" Grid.Column="3" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="5" Grid.Column="3" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="6" Grid.Column="3" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="7" Grid.Column="3" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="0" Grid.Column="3" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="3" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="3" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="3" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="3" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="3" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="6" Grid.Column="3" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="7" Grid.Column="3" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
 
-        <Button Grid.Row="0" Grid.Column="4" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="1" Grid.Column="4" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="2" Grid.Column="4" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="3" Grid.Column="4" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="4" Grid.Column="4" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="5" Grid.Column="4" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="6" Grid.Column="4" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="7" Grid.Column="4" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="0" Grid.Column="4" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="4" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="4" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="4" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="4" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="4" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="6" Grid.Column="4" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="7" Grid.Column="4" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
 
-        <Button Grid.Row="0" Grid.Column="5" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="1" Grid.Column="5" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="2" Grid.Column="5" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="3" Grid.Column="5" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="4" Grid.Column="5" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="5" Grid.Column="5" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="6" Grid.Column="5" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="7" Grid.Column="5" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="0" Grid.Column="5" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="5" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="5" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="5" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="5" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="5" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="6" Grid.Column="5" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="7" Grid.Column="5" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
 
-        <Button Grid.Row="0" Grid.Column="6" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="1" Grid.Column="6" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="2" Grid.Column="6" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="3" Grid.Column="6" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="4" Grid.Column="6" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="5" Grid.Column="6" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="6" Grid.Column="6" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="7" Grid.Column="6" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="0" Grid.Column="6" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="6" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="6" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="6" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="6" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="6" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="6" Grid.Column="6" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="7" Grid.Column="6" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
 
-        <Button Grid.Row="0" Grid.Column="7" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="1" Grid.Column="7" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="2" Grid.Column="7" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="3" Grid.Column="7" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="4" Grid.Column="7" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="5" Grid.Column="7" Background="LightCoral" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="6" Grid.Column="7" Background="Black" Content="" Click="Button_Click"></Button>
-        <Button Grid.Row="7" Grid.Column="7" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="0" Grid.Column="7" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Grid.Column="7" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="2" Grid.Column="7" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="7" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="4" Grid.Column="7" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="5" Grid.Column="7" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="6" Grid.Column="7" Foreground="White" Background="Black" Content="" Click="Button_Click"></Button>
+        <Button Grid.Row="7" Grid.Column="7" Foreground="White" Background="LightCoral" Content="" Click="Button_Click"></Button>
 
         <ListBox x:Name="decisionFigure" Grid.Row="7" Grid.ColumnSpan="5" SelectedIndex="0" Margin="0,60,0,0" Grid.RowSpan="2" BorderBrush="Black" SelectionChanged="decisionFigure_SelectionChanged"/>
 
