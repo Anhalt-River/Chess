@@ -49,7 +49,7 @@ namespace chess_4
                     ourFigure.TakedButton = clickedButton;
                     clickedButton.Content = takedfigure;
                 }
-                else if (ourFigure.Move(x, y))
+                else if (ourFigure.Answer(x, y))
                 {
                     clickedButton.Content = takedfigure;
                     (ourFigure.TakedButton as Button).Content = "";
