@@ -57,6 +57,7 @@ namespace chess_4
                     chessBoard.Children.Add(b1);
                 }
             }
+
         }
 
         private void decisionFigure_SelectionChanged(object sender, SelectionChangedEventArgs e)
