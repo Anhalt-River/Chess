@@ -4,6 +4,7 @@ namespace chess_4
 {
     public class FigureFabric
     {
+        //Паттерн Фабрики, создающей фигуру
         static public Figure FabricateFigure(string takedfigure, int x, int y)
         {
             Figure newfigure;
@@ -28,7 +29,7 @@ namespace chess_4
                     newfigure = new Pawn(x, y);
                     break;
                 default:
-                    throw new Exception("Была получена неизвестная фигура");
+                    throw new Exception("Была получена неизвестная фигура"); //Обращение к разработчику
             }
             return newfigure;
         }

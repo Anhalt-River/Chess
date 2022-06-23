@@ -1,14 +1,16 @@
 ﻿using System;
 
+//Наследное хранение классов фигур в пределах среды шахмат-4. Логика ходов шахматных фигур отнесена в
+//отдельной библиотеке "chess"
 namespace chess_4
 {
     public abstract class Figure
     {
         public object TakedButton;
-
         protected int x;
         protected int y;
 
+        //Единая фигура. Ругается на взятую кнопку, однако работает исправно
         public Figure(int newX, int newY)
         {
             x = newX;
@@ -16,7 +18,8 @@ namespace chess_4
         }
         public abstract bool Move(int newX, int newY);
 
-        public bool Answer(int newX, int newY)
+        //Прямое обращение к возможности хода с использованием виртуального метода Move
+        public bool MotionAnswer(int newX, int newY)
         {
             if (Move(newX, newY))
             {
@@ -28,6 +31,7 @@ namespace chess_4
         }
     }
 
+    //Король
     public class King : Figure
     {
         public King(int newX, int newY) : base(newX, newY)
@@ -40,6 +44,7 @@ namespace chess_4
 
     }
 
+    //Ферзь
     public class Queen : Figure
     {
         public Queen(int newX, int newY) : base(newX, newY)
@@ -51,6 +56,7 @@ namespace chess_4
         }
     }
 
+    //Слон
     public class Bishop : Figure
     {
         public Bishop(int newX, int newY) : base(newX, newY)
@@ -62,6 +68,7 @@ namespace chess_4
         }
     }
 
+    //Конь
     public class Knight : Figure
     {
         public Knight(int newX, int newY) : base(newX, newY)
@@ -74,6 +81,7 @@ namespace chess_4
         }
     }
 
+    //Ладья(Крепость)
     public class Rook : Figure
     {
         public Rook(int newX, int newY) : base(newX, newY)
@@ -86,6 +94,7 @@ namespace chess_4
 
     }
 
+    //Пешка. Логика лишь для одной из сторон шахматного поля.
     public class Pawn : Figure
     {
         public Pawn(int newX, int newY) : base(newX, newY)

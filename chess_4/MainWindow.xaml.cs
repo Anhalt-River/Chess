@@ -31,7 +31,7 @@ namespace chess_4
             decisionFigure.ItemsSource = figuresNames;
         }
 
-
+        //Клик по кнопке доски. Имелась ли возможность реализации на UniformGrid?
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button clickedButton = (Button)sender;
@@ -47,7 +47,7 @@ namespace chess_4
                     ourFigure.TakedButton = clickedButton;
                     clickedButton.Content = takedfigure;
                 }
-                else if (ourFigure.Answer(x, y))
+                else if (ourFigure.MotionAnswer(x, y))
                 {
                     clickedButton.Content = takedfigure;
                     Button tempBut = (Button)ourFigure.TakedButton;
@@ -66,6 +66,7 @@ namespace chess_4
             }
         }
 
+        //Выбор одной из фигур в списке
         private void decisionFigure_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             takedfigure = figuresNames[decisionFigure.SelectedIndex];
